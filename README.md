@@ -54,6 +54,7 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-automated-te
 ### Demo
 - [ ] Application requirements overview
 - [ ] Application architecture overview
+- [ ] DevOps pipeline overview
 
 ## What is autotest and why? (2.5)
 ### Autotest value
