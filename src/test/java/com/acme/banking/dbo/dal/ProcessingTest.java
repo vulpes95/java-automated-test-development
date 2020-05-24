@@ -44,7 +44,7 @@ public class ProcessingTest {
         //endregion
 
         //region then
-        assertThat(accountsByClientId).hasSize(2);
+        assertThat(accountsByClientId).hasSize(0);
         accountsByClientId.forEach( a -> System.out.println(a.getId()));
         //endregion
     }
