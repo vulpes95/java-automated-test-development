@@ -2,7 +2,10 @@ package com.acme.banking.dbo;
 
 import com.acme.banking.dbo.domain.Client;
 import com.acme.banking.dbo.domain.SavingAccount;
+import com.acme.banking.dbo.suits.FastTest;
+import com.acme.banking.dbo.suits.SlowTest;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 import java.util.UUID;
 
@@ -11,18 +14,16 @@ import static org.junit.Assert.assertNotNull;
 
 public class SavingAccountTest {
 
+    @Category(FastTest.class)
     @Test(expected = IllegalArgumentException.class)
     public void shouldNotCreateAccountWhenNullId() {
-        //region Given
-        final UUID dummyUuid = UUID.randomUUID();
-        final Client dummyClient = new Client(dummyUuid, "name");
-        //endregion
+        UUID dummyUuid = UUID.randomUUID();
+        Client dummyClient = new Client(dummyUuid, "name");
 
-        //region When
         new SavingAccount(null, dummyClient, 0);
-        //endregion
     }
 
+    @Category(SlowTest.class)
     @Test
     public void shouldCreateAccountWhenNotNullId(){
         UUID uuid = UUID.randomUUID();
