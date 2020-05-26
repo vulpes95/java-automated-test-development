@@ -69,7 +69,7 @@ public class ArrayListTest { //SUT
                 .contains("test2");
     }
 
-    @Test
+    @Test @Ignore
     public void shouldUseElementsStringRepresentationWhenCallToString2() {
         Object mockElement = spy(new Object());
         sut.add(mockElement);
