@@ -51,12 +51,14 @@ public class ProcessingTest {
 
     @Test
     public void shouldDepositAndWithdrawWhenTransfer() {
+        //Client clientStub = new ClientStubBuilder().withName("name").withAccount(id)).build();
+
         new AccountRepositoryDbFakeBuilder()
-            .withAccount(new ClientStubBuilder()
-                    .withName()
-                    .withAccount(id))
-                .build()
+            .withAccount(1, 100., clientStub, "name")
             .withAccount(id, 0., clid, "name")
+            .withAccount()
+                .withId(1)
+                .withAmount(100)
         .buid();
 
         final SavingAccount accountMock1 = mock(SavingAccount.class);
