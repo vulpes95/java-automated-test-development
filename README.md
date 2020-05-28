@@ -4,6 +4,7 @@ Java Automated Test Development
 _3. Java Application as a Subject Under Test: autotests designing, coding, running and reporting._ 21hrs.
 
 # Attendee prerequisites
+
 - [ ] Training «2. Java Application Development» completion
 
 # Training Objectives
