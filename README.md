@@ -223,3 +223,4 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-automated-te
 - [19.05](https://us02web.zoom.us/rec/share/vOcpN-jZ8jlIUIntykTGfpNmR9rOT6a80yYc8qZYzUfFdlI8aKGKsYUuH08EHELO)
 - [22.05](https://us02web.zoom.us/rec/share/9-VPJunSyz9JHImVtRzWWpIHGqH0X6a8gyEY__UEyBzGM_vwlC6-QRSqeejaIuG8)
 - [26.05](https://us02web.zoom.us/rec/share/4cYrKK3rzUpJQ7frsQLgfLc5BN_9eaa80XQW8vBfzhvPt5s0GSs8AzOQkt5DZtR9)
+- [28.05](https://us02web.zoom.us/rec/share/_pREBLTM0j9LQJHd0kv0QIcNE4nZX6a80XBN86VYzUyffPW6gwFMjO4dEzNfpfUB)
